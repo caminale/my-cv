@@ -1,0 +1,14 @@
+{{ if .Site.Data.content.Certifications }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">Certifications</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul>
+            {{ range .Site.Data.content.Certifications }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

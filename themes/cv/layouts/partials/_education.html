@@ -1,0 +1,19 @@
+{{ if .Site.Data.content.Formation }}
+<div id="formation" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            Formation
+        </h2>
+    </div>
+    <div class="section__content">
+        {{ range .Site.Data.content.Formation }}
+            <div class="formation__item">
+                <h3 class="formation__title">{{ .Course | safeHTML }}</h3>
+                <h4 class="formation__place">{{ .Place | safeHTML }}</h4>
+                <h4 class="formation__date">{{ .Date | safeHTML }}</h4>
+                <div class="formation__description">{{ .Details | safeHTML }}</div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

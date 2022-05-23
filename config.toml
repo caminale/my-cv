@@ -1,0 +1,14 @@
+baseURL = "http://loic-cam-cv.s3-website-eu-west-1.amazonaws.com/"
+languageCode = "en-us"
+title = "My CV"
+theme = "cv"
+
+[params]
+colorDark = "#666"
+colorLight = "#fff"
+colorPageBackground = "#ddd"
+colorPrimary = "#7BA8B1"
+colorPrimaryText = "#fff"
+colorRightColumnBackground = "#f5f5f5"
+colorSecondary = "#aaa"
+pages = 1

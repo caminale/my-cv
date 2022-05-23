@@ -1,0 +1,9 @@
+# IDE
+.idea
+*.iml
+
+# Hugo
+public
+
+# Mac cache
+*.DS_Store

@@ -1,0 +1,34 @@
+.content {
+    position: absolute;
+    overflow: hidden;
+
+    &__left {
+        float: left;
+        width: $width-left-col;
+        height: 100%;
+        padding: 3rem 4rem;
+
+        @media screen {
+            &::after {
+                content: '2021 © by Loïc Caminale';
+                height: 4rem;
+                width: 100%;
+                position: absolute;
+                bottom: 0.5rem;
+                color: darken($color-white, 10%);
+            }
+        }
+    }
+
+    &__right {
+        position: absolute;
+        float: right;
+        width: $width-right-col;
+        background-color: $color-right-col;
+        height: 100%;
+        padding: 2rem 3rem;
+        right: 1rem;
+
+        @include shadow(0.5);
+    }
+}

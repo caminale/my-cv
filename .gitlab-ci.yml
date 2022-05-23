@@ -1,0 +1,24 @@
+stages:
+  - build
+  - web-deploy
+
+variables:
+  AWS_DEFAULT_REGION: "eu-west-1"
+
+hugo:build:
+  stage: build
+  image: klakegg/hugo:0.78.2-ci
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public/
+
+web_publish:
+  stage: web-deploy
+  image: dockerrepository/zappa:3.6
+  dependencies: 
+    - hugo:build
+  script:
+    - apt-get install -y rsync
+    - ./bin/web_publish.py

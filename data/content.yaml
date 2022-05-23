@@ -1,0 +1,137 @@
+BasicInfo:
+  FirstName: Loïc
+  LastName: Caminale
+  Photo: avatar.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: caminalel@gmail.com
+    - Icon: fas fa-map-marker-alt
+      Info: Paris, France
+    - Icon: fab fa-gitlab
+      Info: <a href="https://github.com/caminale">github.com/caminale</a>
+      
+Profile: Consultant depuis plus de 4 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
+
+Experience:
+  - Employer: Ardedata (Freelance)
+    Place: Dalkia
+    Positions:
+      - Title: Consultant Data Engineer
+        Date: Juillet 2021 - Aujourd'hui
+        Details:
+          - Migration vers Terraform
+          - Restructuration des pipelines d'intégrations
+          - Mise en place d'un ETL pour des données IOT
+          - Acquisition sur s3
+          - Transformation de la donnée brute via Lambda Python
+          - Chargement de la donnée transformée dans rds Postgres et s3 sous format parquet
+          - Exposition de la donnée à travers Athena pour les datascientists et Tableau pour le métier
+        Badges: ['Datalake', 'Python', 'AWS', 'GitlabCI', 'Docker']
+  - Employer: Octo Technology
+    Place: DILA Paris, Fr
+    Positions:
+      - Title: Consultant Backend Engineer
+        Date: Mars 2021 - Juillet 2O21
+        Details:
+          - Construction d'une brique de chiffrement pour les données d'utilisateurs
+          - Développement d'une couche scan anti virus
+          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale
+        Badges: ['Java', 'Spring', 'clamAV', 'tdd']
+  - Employer: Octo Technology
+    Place: DILA Paris, Fr
+    Positions:
+      - Title: Consultant DevOps Engineer
+        Date: Septembre 2020 - Mars 2O21
+        Details: 
+          - Industrialisation des pipelines via gitlab CI/CD
+          - Création de review-app (environnement héphémère) sur Heroku et Outscale
+          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale
+        Badges: ['Outscale', 'GitalbCI', 'Terraform', 'Terragrunt', 'Docker', 'Ansible', 'Java', 'Spring']
+  - Employer: Octo Technology
+    Place: Engie Paris, FR
+    Positions:
+      - Title: Consultant Data Engineer
+        Date: Octobre 2019 - Septembre 2020
+        Details:
+          - Conception d'un datalake serverless sur AWS
+          - Acquisition sur un bucket s3
+          - Transformation de la donnée brute via Lambda
+          - Traitement Batch journalier via AWS BATCH
+          - Exposition de la donnée via SQL (Athena) et api (lambda avec flask)
+          - Mise en place de la stack d'observabilité (ElasticSearch avec Kibana)
+          - Poc d'un use case datascience sur des timeseries
+          - Mise en production d'api
+        Badges: ['AWS', 'Lambda', 'Python', 'Pandas', 'Jenkins', 'Terraform']
+  - Employer: Stagiaire chez Octo Technologie
+    Place: Octo Paris, FR
+    Positions:
+      - Title: Data Engineer
+        Date: Avril 2018 - Octobre 2018
+        Details:
+          - Etudier et tester des bases de données transactionnelles et distribuées
+          - Mise en place d'un scénario de test de type e-commerce
+          - Déploiement des injecteurs dans k8s
+        Badges: ['GCP', 'Scala', 'Play', 'Spanner', 'Cockroach', 'FaunaDB', 'Terraform', 'Ansible']
+  - Employer: Esme Sudria
+    Place: Paris, FR
+    Positions:
+      - Title: Formateur Cloud et DevOps
+        Date: 2018 - Aujourd'hui
+        Details:
+          - Encadrement d’une classe de 5ème année
+          - Initiation aux outils Terraform, Ansible, GitlabCI
+          - Encadrement d'un projet sur AWS
+        Badges: ['AWS', 'Terraform', 'Ansible', 'Docker', 'GitlabCI']
+Formation:
+  - Course: Ecole d'ingénieur informatique
+    Place: Esme Sudria, Paris
+    Date: Sep 2013 - Nov 2018
+    Details: Spécialité Technologie Emergente
+  - Course: Échange Universitaire
+    Place: Jiao Tong, Shanghai
+    Date: Janvier 2016 - Juin 2016
+    Details: C++, SQL, Système de gestion de base de données.
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - Go
+      - Java
+      - SQL
+  - Family: Developer Tools
+    Items:
+      - Git
+      - Docker
+      - Gitlab CI/CD
+      - AWS
+      - Terraform
+      - Ansible
+  - Family: Frameworks
+    Items:
+      - Spring
+      - Flask
+  - Family: Database
+    Items: 
+      - Postgres
+      - Mysql
+      - Cockroach
+      - Spanner
+Certifications:
+  - Solution Architect AWS
+  - Craft (délivré par Octo)
+
+Langages:
+  - Name: Français
+    Level: maternelle
+  - Name: English
+    Level: B2/C1
+
+Certifications:
+  - Solution Architect de chez AWS
+  - Craft (délivré par octo)
+
+Interests:
+  - Trail 🏃‍
+  - Voyage 🌍
+  - Cuisine 🧑🏻‍🍳
