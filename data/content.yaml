@@ -26,7 +26,7 @@ Experience:
           - Transformation de la donnée brute via Lambda Python
           - Chargement de la donnée transformée dans rds Postgres et s3 sous format parquet
           - Exposition de la donnée à travers Athena pour les datascientists et Tableau pour le métier
-        Badges: ['Datalake', 'Python', 'AWS', 'GitlabCI', 'Docker']
+        Badges: ['Datalake', 'Python', 'Serverless', 'AWS', 'Postgres', 'Terraform', 'GitlabCI', 'Docker']
   - Employer: Octo Technology
     Place: DILA Paris, Fr
     Positions:
@@ -35,7 +35,7 @@ Experience:
         Details:
           - Construction d'une brique de chiffrement pour les données d'utilisateurs
           - Développement d'une couche scan anti virus
-          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale
+          - Passage au pattern event sourcing
         Badges: ['Java', 'Spring', 'clamAV', 'tdd']
   - Employer: Octo Technology
     Place: DILA Paris, Fr
