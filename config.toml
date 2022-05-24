@@ -1,4 +1,4 @@
-baseURL = "http://loic-cam-cv.s3-website-eu-west-1.amazonaws.com/"
+baseURL = "https://caminale.github.io/my-cv"
 languageCode = "en-us"
 title = "My CV"
 theme = "cv"
