@@ -12,3 +12,11 @@ colorPrimaryText = "#fff"
 colorRightColumnBackground = "#f5f5f5"
 colorSecondary = "#aaa"
 pages = 1
+
+[languages]
+  [languages.en]
+    title = 'My cv'
+    weight = 1
+  [languages.fr]
+    title = 'Mon cv'
+    weight = 2
