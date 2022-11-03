@@ -13,6 +13,18 @@ BasicInfo:
 Profile: Formateur et Consultant depuis plus de 4 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
 
 Experience:
+  - Employer: DataGuru
+    Place: TELECOM Paris, FR
+    Positions:
+      - Title: Formateur DevOps
+        Date: Septembre 2022 - Aujourd'hui
+        Details:
+          - Encadrement d'architectes
+          - Initiation à la culture DevOps
+          - Découverte de patterns d'architectures
+          - Mise en place d'une infrastructure avec des outils d'Infrastructure As Code
+          - Conception d'un pipeline de déploiement continu
+        Badges: ['DevOps', 'Cloud', 'Terraform', 'Ansible', 'Docker', 'GitlabCI']
   - Employer: Ardedata (Freelance)
     Place: Dalkia
     Positions:
