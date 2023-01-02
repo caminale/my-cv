@@ -63,7 +63,7 @@ Experience:
     Place: Engie Paris, FR
     Positions:
       - Title: Consultant Data Engineer
-        Date: Octobre 2019 - Septembre 2020
+        Date: Octobre 2018 - Septembre 2020
         Details:
           - Conception d'un datalake serverless sur AWS
           - Acquisition sur un bucket s3
@@ -74,7 +74,7 @@ Experience:
           - Poc d'un use case datascience sur des timeseries
           - Mise en production d'api
         Badges: ['AWS', 'Lambda', 'Python', 'Pandas', 'Jenkins', 'Terraform']
-  - Employer: Stagiaire chez Octo Technologie
+  - Employer: R&D chez Octo Technologie
     Place: Octo Paris, FR
     Positions:
       - Title: Data Engineer
