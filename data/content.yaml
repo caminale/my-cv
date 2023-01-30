@@ -17,27 +17,30 @@ Experience:
     Place: TELECOM Paris, FR
     Positions:
       - Title: Formateur DevOps
-        Date: Septembre 2022 - Aujourd'hui
+        Date: Novembre 2022 - Aujourd'hui
         Details:
-          - Encadrement d'architectes
-          - Initiation à la culture DevOps
-          - Découverte de patterns d'architectures
-          - Mise en place d'une infrastructure avec des outils d'Infrastructure As Code
-          - Conception d'un pipeline de déploiement continu
+          - Encadrement d'architectes, Ops et Développeurs sur les pratiques DevOps. Dans cette formation de plusieurs
+            jours, on traite les 4 pilliers du DevOps c'est à dire﹕Organisation/Culture, les patterns d'architectures, l'infrastructure as code
+            et le pipeline de CI/CD.
+          - Organisation/Culture﹕101 des pratiques agiles et introduction de l'étude Accelerate
+          - Patterns d'architectures﹕101 des patterns de scalabilité/disponibilité, des patterns de déploiements et introduction au cloud﹕facilitateur de l’architecture DevOps
+          - Infrastructure As Code﹕Définition, responsabilité des différents outils et stratégies de déploiement + cycles de vie des composants. Introduction à Terraform et Ansible en automatisant
+            la création d'un server python(flask) sur aws.
+          - Pipeline CI/CD﹕Définition et mise en place d'une CI + CD pour Build, Tester, Packager et Déployer une application python.
         Badges: ['DevOps', 'Cloud', 'Terraform', 'Ansible', 'Docker', 'GitlabCI']
   - Employer: Ardedata (Freelance)
     Place: Dalkia
     Positions:
       - Title: Consultant Data Engineer
-        Date: Juillet 2021 - Aujourd'hui
+        Date: Juillet 2021 - Novembre 2022
         Details:
-          - Migration vers Terraform
-          - Restructuration des pipelines d'intégrations
-          - Mise en place d'un ETL pour des données IOT
-          - Acquisition sur s3
-          - Transformation de la donnée brute via Lambda Python
-          - Chargement de la donnée transformée dans rds Postgres et s3 sous format parquet
-          - Exposition de la donnée à travers Athena pour les datascientists et Tableau pour le métier
+          - Conceptions d'un datalake sur AWS. Loïc a participé sur les différents niveaux de la pipeline de donnée﹕ de l'ingestion jusqu'à l'exposition de la donnée.
+            On recevait les données sur un bucket s3 (acquisition), on la transformait avec du code python en utilisant
+            la librairie Pandas, après transformation nous la stockons en base (Postgres) ou sur un stockage objet sous format Parquet.
+            Les données étaient accessible à travers un moteur SQL (Athena), les datascientists utiliser directement nos
+            tables et les tableaux de bords s'alimentaient en donnée depuis Athena.
+          - Loïc était Lead Ops et référent sur plusieurs sujets. Il animait également les rituels agiles﹕rétrospectives, daily,
+            sprint planning...
         Badges: ['Datalake', 'Python', 'Serverless', 'AWS', 'Postgres', 'Terraform', 'GitlabCI', 'Docker']
   - Employer: Octo Technology
     Place: DILA Paris, Fr
@@ -45,6 +48,7 @@ Experience:
       - Title: Consultant Backend Engineer
         Date: Mars 2021 - Juillet 2O21
         Details:
+          - Développement en Java (spring).
           - Construction d'une brique de chiffrement pour les données d'utilisateurs
           - Développement d'une couche scan anti virus
           - Passage au pattern event sourcing
@@ -52,12 +56,13 @@ Experience:
   - Employer: Octo Technology
     Place: DILA Paris, Fr
     Positions:
-      - Title: Consultant DevOps Engineer
+      - Title: Consultant Lead DevOps Engineer
         Date: Septembre 2020 - Mars 2O21
         Details:
           - Industrialisation des pipelines via gitlab CI/CD
-          - Création de review-app (environnement héphémère) sur Heroku et Outscale
-          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale
+          - Création de review-app (environnement héphémère) sur Heroku et Outscale permettant aux développeurs d'avoir
+            un environnement isolé. Les review-app ont amélioré le temps de recettes.
+          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale.
         Badges: ['Outscale', 'GitalbCI', 'Terraform', 'Terragrunt', 'Docker', 'Ansible', 'Java', 'Spring']
   - Employer: Octo Technology
     Place: Engie Paris, FR
