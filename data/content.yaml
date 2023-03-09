@@ -10,9 +10,20 @@ BasicInfo:
     - Icon: fab fa-gitlab
       Info: <a href="https://github.com/caminale">github.com/caminale</a>
       
-Profile: Formateur et Consultant depuis plus de 4 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
+Profile: Consultant et Formateur depuis plus de 5 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
 
 Experience:
+  - Employer: Ardedata (Freelance)
+    Place: Billy, Paris
+    Positions:
+      - Title: Backend Engineer
+        Date: Janvier 2023 - Aujourd'hui
+        Details:
+          - Responsable de la mise en place de la plateforme du marché secondaire
+          - Conception et implémentation de la fonctionnalité de mise en vente de billets sur la plateforme
+          - Développement de la fonctionnalité d'achat de billets sur le marché secondaire
+          - Transfert des tickets (NFT) sur la blockchain pour assurer la sécurité et la transparence des transactions.
+        Badges: ['Software Craftmanship', 'Python(Flask)', 'Terraform', 'AWS(s3,lambda,sqs, rds)', BlockChain(Tezos), 'GitlabCI']
   - Employer: DataGuru
     Place: TELECOM Paris, FR
     Positions:
@@ -29,7 +40,7 @@ Experience:
           - Pipeline CI/CD﹕Définition et mise en place d'une CI + CD pour Build, Tester, Packager et Déployer une application python.
         Badges: ['DevOps', 'Cloud', 'Terraform', 'Ansible', 'Docker', 'GitlabCI']
   - Employer: Ardedata (Freelance)
-    Place: Dalkia
+    Place: Dalkia, Paris
     Positions:
       - Title: Consultant Data Engineer
         Date: Juillet 2021 - Novembre 2022
@@ -41,7 +52,7 @@ Experience:
             tables et les tableaux de bords s'alimentaient en donnée depuis Athena.
           - Loïc était Lead Ops et référent sur plusieurs sujets. Il animait également les rituels agiles﹕rétrospectives, daily,
             sprint planning...
-        Badges: ['Datalake', 'Python', 'Serverless', 'AWS', 'Postgres', 'Terraform', 'GitlabCI', 'Docker']
+        Badges: ['Datalake', 'Python(Pandas,Dask)', 'AWS(athena,s3,lambda,rds,cloudwatch,stepfunctions)', 'Postgres', 'Terraform', 'GitlabCI', 'Docker']
   - Employer: Octo Technology
     Place: DILA Paris, Fr
     Positions:
@@ -52,7 +63,7 @@ Experience:
           - Construction d'une brique de chiffrement pour les données d'utilisateurs
           - Développement d'une couche scan anti virus
           - Passage au pattern event sourcing
-        Badges: ['Java', 'Spring', 'clamAV', 'tdd']
+        Badges: ['Java(spring)', 'clamAV', 'Software Craft', 'tdd', 'event sourcing']
   - Employer: Octo Technology
     Place: DILA Paris, Fr
     Positions:
@@ -62,8 +73,8 @@ Experience:
           - Industrialisation des pipelines via gitlab CI/CD
           - Création de review-app (environnement héphémère) sur Heroku et Outscale permettant aux développeurs d'avoir
             un environnement isolé. Les review-app ont amélioré le temps de recettes.
-          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale.
-        Badges: ['Outscale', 'GitalbCI', 'Terraform', 'Terragrunt', 'Docker', 'Ansible', 'Java', 'Spring']
+          - Conception d'un environnement cible pour la production dans une région secnumCloud chez Outscale.(architectures 3 tiers)
+        Badges: ['Outscale', 'GitalbCI', 'Terraform', 'Terragrunt', 'Docker', 'Ansible']
   - Employer: Octo Technology
     Place: Engie Paris, FR
     Positions:
@@ -78,7 +89,7 @@ Experience:
           - Mise en place de la stack d'observabilité (ElasticSearch avec Kibana)
           - Poc d'un use case datascience sur des timeseries
           - Mise en production d'api
-        Badges: ['AWS', 'Lambda', 'Python', 'Pandas', 'Jenkins', 'Terraform']
+        Badges: ['AWS(lambda,ecs,fargate,athena,batch,s3,ELK)', 'Python(Pandas, Flask)', 'Jenkins', 'Terraform']
   - Employer: R&D chez Octo Technologie
     Place: Octo Paris, FR
     Positions:
@@ -88,12 +99,12 @@ Experience:
           - Etudier et tester des bases de données transactionnelles et distribuées
           - Mise en place d'un scénario de test de type e-commerce
           - Déploiement des injecteurs dans k8s
-        Badges: ['GCP', 'Scala', 'Play', 'Spanner', 'Cockroach', 'FaunaDB', 'Terraform', 'Ansible']
+        Badges: ['GCP(gke,spanner)', 'Scala(play)', 'Cockroach', 'FaunaDB', 'Terraform', 'Ansible']
   - Employer: Esme Sudria
     Place: Paris, FR
     Positions:
       - Title: Formateur Cloud et DevOps
-        Date: 2018 - Aujourd'hui
+        Date: 2018 - 2022
         Details:
           - Encadrement d’une classe de 5ème année
           - Initiation aux outils Terraform, Ansible, GitlabCI
@@ -113,7 +124,6 @@ Skills:
   - Family: Programming
     Items:
       - Python
-      - Go
       - Java
       - SQL
   - Family: Developer Tools
@@ -126,17 +136,14 @@ Skills:
       - Ansible
   - Family: Frameworks
     Items:
-      - Spring
       - Flask
+      - Spring
   - Family: Database
     Items:
       - Postgres
       - Mysql
       - Cockroach
       - Spanner
-Certifications:
-  - Solution Architect AWS
-  - Craft (délivré par Octo)
 
 Langages:
   - Name: Français
@@ -147,6 +154,7 @@ Langages:
 Certifications:
   - Solution Architect de chez AWS
   - Craft (délivré par octo)
+  - Terraform Associate
 
 Interests:
   - Trail 🏃‍
