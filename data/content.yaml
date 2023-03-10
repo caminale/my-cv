@@ -10,7 +10,7 @@ BasicInfo:
     - Icon: fab fa-gitlab
       Info: <a href="https://github.com/caminale">github.com/caminale</a>
       
-Profile: Consultant et Formateur depuis plus de 5 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
+Profile: Consultant et Formateur depuis plus de 5 ans, passionné par la technique et les méthodes agiles je suis intervenu sur des sujets très variés. J’ai développé et mis en production des applications en Java et python, mis en place des solutions de stockage et d’intégration de données.
 
 Experience:
   - Employer: Ardedata (Freelance)
@@ -42,7 +42,7 @@ Experience:
   - Employer: Ardedata (Freelance)
     Place: Dalkia, Paris
     Positions:
-      - Title: Consultant Data Engineer
+      - Title: Consultant DataOps
         Date: Juillet 2021 - Novembre 2022
         Details:
           - Conceptions d'un datalake sur AWS. Loïc a participé sur les différents niveaux de la pipeline de donnée﹕ de l'ingestion jusqu'à l'exposition de la donnée.
@@ -82,6 +82,7 @@ Experience:
         Date: Octobre 2018 - Septembre 2020
         Details:
           - Conception d'un datalake serverless sur AWS
+          - Scripting de l'infrastructure via IAC (Terraform & Ansible)
           - Acquisition sur un bucket s3
           - Transformation de la donnée brute via Lambda
           - Traitement Batch journalier via AWS BATCH
