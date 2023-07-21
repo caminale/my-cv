@@ -14,21 +14,42 @@ Profile: Consultant et Formateur depuis plus de 5 ans, passionné par la techniq
 
 Experience:
   - Employer: Ardedata (Freelance)
+    Place: Wakam, Paris
+    Positions:
+      - Title: Data Engineer
+        Date: Juin 2023 - Aujourd'hui
+        Details:
+          - Exposition des schémas d'interfaces aux partenaires qui doivent envoyer des données.
+          - Mise à disposition au partenaire d'une route API pour valider leurs données de test.
+          - Mise en place de deux flux d'envoi de fichiers (SFTP et API).
+        Badges: ['fastApi', 'azure', 'Craftmanship', 'Tdd', 'GreatExpectations']
+  - Employer: Ardedata (Freelance)
+    Place: Wakam, Paris
+    Positions:
+      - Title: Ops Engineer
+        Date: Mars 2023 - Juin 2023
+        Details:
+          - Privatisation réseau d'une application en micro-services
+          - Optimisation et fiabilisation des pipelines CI⚡️CD
+          - Réduction des coûts infrastructure
+          - Formation de l'équipe sur les méthodos et les outils DevOps
+        Badges: ['DevOps', 'Azure(AzureDevOps)', 'Terraform', 'SonarCloud', 'Networking']
+  - Employer: Ardedata (Freelance)
     Place: Billy, Paris
     Positions:
       - Title: Backend Engineer
-        Date: Janvier 2023 - Aujourd'hui
+        Date: Janvier 2023 - Mars 2023
         Details:
           - Responsable de la mise en place de la plateforme du marché secondaire
           - Conception et implémentation de la fonctionnalité de mise en vente de billets sur la plateforme
           - Développement de la fonctionnalité d'achat de billets sur le marché secondaire
           - Transfert des tickets (NFT) sur la blockchain pour assurer la sécurité et la transparence des transactions.
-        Badges: ['Software Craftmanship', 'Python(Flask)', 'Terraform', 'AWS(s3,lambda,sqs, rds)', BlockChain(Tezos), 'GitlabCI']
+        Badges: ['Software Craftmanship', 'Python(Flask)', 'Terraform', 'AWS(s3,lambda,sqs, rds)', 'BlockChain(Tezos)', 'GitlabCI']
   - Employer: DataGuru
     Place: TELECOM Paris, FR
     Positions:
       - Title: Formateur DevOps
-        Date: Novembre 2022 - Aujourd'hui
+        Date: Novembre 2022 - Janvier 2023
         Details:
           - Encadrement d'architectes, Ops et Développeurs sur les pratiques DevOps. Dans cette formation de plusieurs
             jours, on traite les 4 pilliers du DevOps c'est à dire﹕Organisation/Culture, les patterns d'architectures, l'infrastructure as code
